@@ -40,7 +40,6 @@ public class MyFragment extends Fragment {
         SqlHelper sqlHelper = new SqlHelper(getActivity());
 
         for (int i = 0; i < 10; i++) {
-
             sqlHelper.insertXiao(new DbBean("张三" + i, i));
         }
 
